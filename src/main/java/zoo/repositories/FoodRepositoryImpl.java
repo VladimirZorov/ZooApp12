@@ -8,6 +8,7 @@ public class FoodRepositoryImpl implements FoodRepository{
 
     private Collection<Food> foods;
 
+
     @Override
     public void add(Food food) {
         foods.add(food);
